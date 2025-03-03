@@ -1,0 +1,13 @@
+title: QED
+email: hi@chenna.me
+description: >- # this means to ignore newlines until "baseurl:"
+  Personal URL Shortener
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: kautilyach
+github_username:  hashb
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
