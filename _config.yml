@@ -11,3 +11,40 @@ github_username:  hashb
 theme: minima
 plugins:
   - jekyll-feed
+
+# URL Shortener Configuration
+collections:
+  redirects:
+    output: true
+    permalink: /:name
+
+defaults:
+  - scope:
+      path: ""
+      type: "redirects"
+    values:
+      layout: "post"
+
+
+prose:
+  rooturl: '_redirects'
+  siteurl: 'https://qed.bz/'
+  media: 'assets/uploads'
+  ignore:
+    - index.html
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - /_plugins
+    - /_sass
+  metadata:
+    _redirects:
+      - name: "title"
+        field:
+          element: "text"
+          value: "Redirecting..."
+      - name: "redirect_url"
+        field:
+          element: "text"
+          label: "Link"
+          value: ""
