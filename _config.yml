@@ -8,7 +8,7 @@ twitter_username: kautilyach
 github_username:  hashb
 
 # Build settings
-theme: riggraz/no-style-please
+remote_theme: riggraz/no-style-please
 plugins:
   - jekyll-feed
 
